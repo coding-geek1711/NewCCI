@@ -1,0 +1,27 @@
+.card-parent {
+  font-family: "Poppins" sans-serif;
+  margin-top: 10%;
+  /* width: 25%; */
+  min-width: 100px;
+  min-height: 300px;
+  height: 35%;
+}
+.card-parent:hover {
+  box-shadow: 10px 10px 10px #dee7ed;
+  cursor: pointer;
+  background-color: #eef1f3;
+  transition: 0.3s;
+}
+
+.card-parent .card-icon {
+  font-size: 7rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 14px;
+  margin-bottom: auto;
+  color: blue;
+}
+.card-parent .card-title {
+  margin-top: 30px;
+  font-size: 3rem;
+}

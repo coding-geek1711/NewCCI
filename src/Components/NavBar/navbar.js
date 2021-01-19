@@ -6,11 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import './NavBar.css'
 
-
-
-
-
-
 const LogoText = () => {
     const [windowSize, setWindowSize] = useState({
         width: undefined,
@@ -54,7 +49,7 @@ const RenderLogoText = () => {
 
 const navbar = () => {
     return (
-        <Navbar bg="light" expand="sm">
+        <Navbar  expand="sm" className="Navbar-parent" style={{boxShadow:"none"}}>
             <Navbar.Brand href="#home" className="brand">
                 <img
                     src={logo}
@@ -82,10 +77,6 @@ const navbar = () => {
                         </NavDropdown> */}
                     </ul>
                 </Nav>
-                {/* <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                </Form> */}
             </Navbar.Collapse>
         </Navbar>
     )

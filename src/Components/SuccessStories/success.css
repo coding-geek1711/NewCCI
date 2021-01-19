@@ -1,0 +1,29 @@
+.success-container {
+  background-image: linear-gradient(#d9e4eb, #f7f7f7);
+}
+
+.success-container h1 {
+  /* top: 50px; */
+  padding-top: 30px;
+  font-family: "Poppins" sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.carousel-parent {
+  padding-top: 30px;
+}
+
+.carousel-parent img {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel-parent img {
+    height: 400px;
+  }
+}
+
+.nextIcon-carousel {
+  font-size: 10rem;
+}
